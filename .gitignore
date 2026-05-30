@@ -1,0 +1,4 @@
+# Backups e arquivos temporarios
+*.backup
+*.bak
+.DS_Store
