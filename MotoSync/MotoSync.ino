@@ -34,8 +34,8 @@ String country = "BR";
 // Cole aqui sua chave gerada no portal: https://developer.tomtom.com/
 String tomtomApiKey = "SUA_API_KEY_TOMTOM"; 
 // Coordenadas Fixas de Referência
-const float HOME_LAT = 0.000000; // Coordenadas da sua Casa
-const float HOME_LON = 0.000000;
+const float HOME_LAT = -19.920198; // Coordenadas da sua Casa
+const float HOME_LON = -44.089905;
 const float WORK_LAT = -19.930240; // Coordenadas do Trabalho (CEFET-MG Nova Suica)
 const float WORK_LON = -43.987770;
 
