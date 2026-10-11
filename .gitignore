@@ -2,3 +2,4 @@
 *.backup
 *.bak
 .DS_Store
+MotoSync_ESP32/secrets.h

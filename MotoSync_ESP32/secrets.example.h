@@ -1,0 +1,7 @@
+// Copie para secrets.h e preencha (secrets.h não vai para o git)
+#define OPENWEATHER_API_KEY "SUA_API_KEY_OPENWEATHERMAP"
+#define TOMTOM_API_KEY      "SUA_API_KEY_TOMTOM"
+#define WIFI_CASA_SSID      "NOME_WIFI_CASA"
+#define WIFI_CASA_SENHA     "SENHA_WIFI_CASA"
+#define WIFI_CELULAR_SSID   "NOME_HOTSPOT_CELULAR"
+#define WIFI_CELULAR_SENHA  "SENHA_HOTSPOT_CELULAR"

@@ -1,8 +1,8 @@
 #include <Wire.h>
 
 void setup() {
-  // Inicializa I2C usando as portas universais (4 = D2 para SDA, 5 = D1 para SCL)
-  Wire.begin(4, 5); 
+  // Pinos padrão da placa: ESP8266 = D2(SDA)/D1(SCL), ESP32 = GPIO21(SDA)/GPIO22(SCL)
+  Wire.begin();
   
   Serial.begin(115200);
   while (!Serial);

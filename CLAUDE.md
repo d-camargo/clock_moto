@@ -13,6 +13,7 @@ Firmware Arduino (C++) para ESP8266, que roda um display de status na moto: rel�
 ## Estrutura
 
 - `MotoSync/MotoSync.ino` — firmware principal (único arquivo com toda a lógica).
+- `MotoSync_ESP32/MotoSync_ESP32.ino` — cópia para ESP32 + GPS G10A-F30 (UART2: RX=16, TX=17). RTC DS3231 e LCD no mesmo I2C (SDA=21, SCL=22). Compilar: `arduino-cli compile --fqbn esp32:esp32:esp32:PartitionScheme=huge_app --library ~/Arduino/libraries/LiquidCrystal_I2C MotoSync_ESP32` (core `esp32:esp32` + lib `TinyGPSPlus`). `huge_app` é obrigatório: com BLE o sketch não cabe na partição padrão de 1,3MB. Upload usa o mesmo FQBN.
 - `i2c_scanner/i2c_scanner.ino` — sketch avulso de diagnóstico para descobrir endereços I2C dos periféricos (LCD, RTC) no barramento.
 
 ## Build / compilar
